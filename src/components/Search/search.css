@@ -1,0 +1,106 @@
+.settingsBlock{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(142, 142, 142 , .2); 
+    background-color: white;
+    width: 405px;
+    position: fixed;
+    top: 0;
+    left: 64px;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 100dvh;
+    border-top-right-radius: 16px;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, .15);
+    z-index: 10000000000000;
+}
+.settingsBlock h2{
+    padding: 2px 0 36px 0;
+    margin-left: 12px;
+}
+.SearchAllUsers{
+    padding-right: 30px;
+    overflow-y: auto;
+}
+.searchTitleDiv{
+    font-weight: 500;
+}
+
+.settingsBlock input{
+    width: 363px;
+    padding: 13px 16px;
+    color: rgb(115, 115, 115);
+    border: none;
+    background-color: rgb(239, 239, 239);
+    border-radius: 8px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.storyRecentDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 14px;
+
+}
+.searchDivLine{
+    margin-top: 24px;
+    width: 100%;
+    border: 1px solid rgb(142, 142, 142 , .2); 
+    margin-bottom: 10px;
+
+}
+.storyRecentDiv p{
+    color: rgb(0, 149, 246);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.storyRecentDiv p:hover{
+    color: rgb(0, 55, 107);
+}
+.storyRecentDiv span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.searchImgAndName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    cursor: pointer;
+}
+.searchImgAndName:hover{
+    background-color: rgba(211, 211, 211, 0.563);
+}
+.searchImageDiv{
+    border: 2px solid red;
+    border-radius: 50%;
+    height: 52px;
+}
+
+ .searchImage{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 2px;
+
+    
+}
+.searchNameDiv{
+    padding-left: 10px;
+}
+.searchNameDiv span{
+    font-weight: 600;
+}
+.searchNameDiv p{
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+}
+.searchDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

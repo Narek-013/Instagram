@@ -1,0 +1,18 @@
+.HomePage {
+  display: flex;
+}
+
+.Homecenter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-left: 245px;
+}
+
+.HomeCenterAndRight {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+

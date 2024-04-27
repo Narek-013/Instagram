@@ -1,0 +1,169 @@
+.NavigationMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 245px;
+  height: 100dvh;
+  padding: 12px;
+  position: fixed;
+  border-right: 1px solid rgb(142, 142, 142, 0.4);
+}
+.ProfileImg {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.instaLogo {
+  margin-top: 4px;
+}
+
+.topInstagramLogo {
+  margin-top: 22px;
+}
+
+.NavigationProfileDiv {
+  display: flex;
+}
+.NavigationIconsDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.NavigationIconsDiv .NavLink {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  padding: 12px;
+  width: 195px;
+}
+
+.NavigationIconsDiv .NavLink:hover {
+  background-color: rgba(211, 211, 211, 0.563);
+  border-radius: 10px;
+}
+.NavigationIconsDiv .NavLink .active {
+  font-weight: 700;
+}
+.NavigationIconsDiv a {
+  text-decoration: none;
+  color: black;
+}
+
+.NavLink span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Logo {
+  height: 32px;
+  width: 287px;
+  padding: 25px 12px 16px;
+  margin-bottom: 18px;
+}
+
+.LogOut {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+    z-index: 99999999999999;
+
+}
+
+.logOutBlocks {
+  width: 260px;
+  height: 391px;
+  padding: 1.2px;
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 71px;
+  box-shadow: 1px 1px 5px rgb(88, 88, 88, .4);
+  left: 24px;
+  border-radius: 12px;
+}
+
+.moadlTopBlock {
+  display: flex;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 8px;
+  padding-top: 25px;
+}
+
+.moadlBottomLogout {
+  margin-top: 10px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.moadlTopBlock button,.modalSettings {
+  text-align: left;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  padding: 16px;
+  background-color: transparent;
+  cursor: pointer;
+ 
+}
+.moadlBottomLogout button {
+  text-align: left;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  padding: 16px;
+  background-color: transparent;
+  &:hover {
+     border-radius: 8px;
+    background-color: rgba(211, 211, 211, 0.563);
+    cursor: pointer;
+  }
+}
+
+.settingsModal{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+     &:hover {
+    border-radius: 8px;
+    background-color: rgba(211, 211, 211, 0.563);
+    cursor: pointer;
+  }
+}
+
+
+.modalNone{
+    display: none;
+}
+.instagramLogo{
+  margin-left: 12px;
+  padding-top: 20px;
+}
+
+.modalBc{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.BackRequest{
+  color: black;
+}
+
+
+.smile{
+  margin-left: 20px;
+  cursor: pointer;
+}

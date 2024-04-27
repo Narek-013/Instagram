@@ -1,0 +1,44 @@
+.messageFooter{
+    position: fixed;
+    bottom: 6px;
+    z-index: 477;
+    background-color: white;
+    width: 71%;
+    height: 60px;
+}
+
+.footMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageBlockInp{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    padding: 4px ;
+    border-radius: 26px;
+    border: 1px solid black;
+}
+
+.messageInput{
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 810px;
+}
+
+.messageIcons{
+    cursor: pointer;
+    display: flex;
+    padding-right: 25px;
+    column-gap: 10px;
+}
+.smileAndInputDiv{
+    display: flex;
+    align-items: center;
+}

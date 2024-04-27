@@ -1,0 +1,93 @@
+.modalStoryWindow{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+    position: relative;
+}
+
+.StoryUserProfileImgBlock{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalStoryImg{
+    width: 70%;
+    margin-left: 70px;
+}
+.modalStoryWindow input{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: 380px;
+    height: 42px;
+    padding: 8px 12px;
+    margin-right: 7px;
+    font-size: 14px;
+    border-radius: 100px;
+    &::placeholder{
+        color: white;
+    }
+}
+.StoryBottomPar{
+    display: flex;
+    justify-content: center;
+}
+.StoryIconsDiv{
+    padding: 7px;
+}
+.StoryTopPar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 17px;
+}
+.StoryUserDiv{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.StoryUserProfileImg{
+    width: 36px; 
+    height: 36px;
+    border-radius: 50%;
+}
+.StoryUserName{
+    color: white;
+    font-size: 14px;
+}
+.StoryTopIconsDiv{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.StoryLogoDiv{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.animationStoryDiv{
+    width: calc(100% - 16px);
+}
+.animationStory{
+    animation-name: animeStory;
+    animation-duration: 4s;
+    transition-timing-function: ease-in-out;
+    height: 1.4px;
+    margin: 0 8px;
+}
+
+@keyframes animeStory {
+    from{
+        background-color: white;
+        width: 0%;
+    }
+    to{
+        background-color: white;
+        width: 100%
+    }
+}
+

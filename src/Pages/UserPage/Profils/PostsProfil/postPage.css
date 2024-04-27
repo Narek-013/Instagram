@@ -1,0 +1,19 @@
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-left: 290px;
+}
+
+.post{
+    width: 309px;
+    height: 309px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.post > img{
+    width: 309px;
+    height: 309px;
+}

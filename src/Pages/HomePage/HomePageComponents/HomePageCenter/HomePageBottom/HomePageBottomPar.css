@@ -1,0 +1,95 @@
+.HomeBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ComponentCard{
+  width: 470px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.ComponentMiddleLine{
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+}
+
+.ComponentsImgAndName{
+    display: flex;
+    align-items: center;
+    
+}
+.ComponentImgDiv .ComponentImg{
+    width: 46px;
+    height: 46px;
+    border: 2px solid red;
+    padding: 2px;
+    border-radius: 50%;
+}
+.ComponentImgDiv{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+ .ComponentNameDiv span{
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+ .ComponentNameDiv p{
+    font-size: 14px;
+    color: black;
+}
+.componentCardTopDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.componentContentDiv{
+  display: flex;
+  position: relative;
+}
+.componentContentDiv img{
+  width: 100%;
+  margin-top: 10px;
+}
+.componentContentDiv .MuteIcon{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10;
+}
+.MuteIcon{
+  background-color: rgba(38, 38, 38, .8);
+  padding: 5px 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ComponentBottomIconsDiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 10px;
+}
+
+.ComponentBottomIconsDiv .LikeCommentSentIconsDiv{
+  display: flex;
+  column-gap: 16px;
+}
+.ComponentLikeNumber p{
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: black;
+}
+.componentCommentInputDiv .input{
+  width: 100%;
+  border: none;
+  margin-top: 15px;
+  padding: 10px 0;
+  outline: none;
+  font-size: inherit;
+}

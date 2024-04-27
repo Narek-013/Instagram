@@ -1,0 +1,136 @@
+.HomeRight {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  width: 319px;
+  margin-top: 36px;
+  margin-left: 64px;
+
+}
+.MyInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+.MyInfo > p{
+    font-size: 14px;
+    color: rgb(0, 149, 246);
+    font-weight: 700;
+}
+.MyImgDiv{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.NameDiv span{
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+.NameDiv p{
+    font-size: 13px;
+    color: rgb(115, 115, 115);
+}
+.MyImgAndName{
+    display: flex;
+    align-items: center;
+    
+}
+.MyImgDiv img{
+    width: 44px; 
+    height: 44px;
+    border-radius: 50%;
+}
+
+
+.UserInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+.followHomePage{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgb(0, 149, 246);
+    font-weight: 700;
+    cursor: pointer;
+}
+.UserImgDiv{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.UserNameDiv span{
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+.UserNameDiv p{
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+}
+.UserImgAndName{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.UserImg img{
+    width: 44px; 
+    height: 44px;
+    border-radius: 50%;
+}
+
+.RightParSuggested{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 19px;
+}
+.RightParSuggested span{
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+.RightParSuggested p{
+    font-weight: 600;
+    color: rgb(115, 115, 115);
+}
+.RightParFollows{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+.RightParFooter {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 9px;
+}
+.RightParFooter a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    font-size: 14px;
+}
+.RightParFooter a:hover{
+    text-decoration: underline;
+}
+.RightParFooterLorem p{
+    margin-top: 16px;
+    color:  rgb(199, 199, 199);;
+}
+.RightParFooterDiv{
+    padding: 0 16px;
+    margin-top: 30px;
+}
+

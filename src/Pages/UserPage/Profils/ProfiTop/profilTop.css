@@ -1,0 +1,22 @@
+.userTopBlock{
+    display: flex;
+    
+}
+
+.userImgBlock{
+    width: 299px;
+    height: 154px;
+    margin-left: 30px;
+}
+
+.userImg{
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.userTpRight{
+    display: flex;
+    flex-direction: column;
+}

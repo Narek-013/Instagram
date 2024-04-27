@@ -1,0 +1,13 @@
+.profils{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    /* width: 935px; */
+    /* margin-left: 75px; */
+    /* padding: 30px 20px 0 ; */
+}
+
+/* .container{
+    max-width: 935px;
+    margin: auto;
+} */

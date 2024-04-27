@@ -1,0 +1,58 @@
+.postAddDiv{
+    max-width: 600px;
+    max-height: 543px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+
+}
+.postAddDivtitleDiv .postAddDivtitle{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.postAddDivtitleDiv {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.postAddDivtitleDiv .next{
+    color: rgb(0, 149, 246);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ImageBox{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.ImageBox .chooseImage{
+    width: 100%;
+    max-height: 740px;
+}
+.PostAddIconsDiv{
+    position: absolute;
+    width: 100%;
+    padding: 5px 15px;
+    bottom: 10px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.leftIcons{
+    display: flex;
+    column-gap: 15px;
+}
+.IconBackground{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .7);
+}

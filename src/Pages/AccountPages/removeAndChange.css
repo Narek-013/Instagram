@@ -1,0 +1,88 @@
+.removeAndChange{
+    width: 98.9vw;
+    height: 1440px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    display: flex;
+    padding-top: 250px;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgb(255, 255, 255, .4);
+    background-color: rgb(115, 115, 115,.7);
+    display: none;
+}
+
+.addBlock{
+    display: flex;
+}
+
+.settingsRemove{
+background-color: #fff;
+    width: 400px;
+    height: 223px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imgChangeP{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.borderImg{
+    margin-top: 27px;
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219, .5);
+}
+
+.lineImg{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219, .5);
+}
+
+.removeImg{
+    margin-top: 14px;
+    border: none;
+    outline: none;
+    background-color: transparent; 
+    color: rgb(237, 73, 86);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.lineRemove{
+    margin-top: 16px;
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219, .5);
+}
+
+.cancelImg{
+    margin-top: 12px;
+    border: none;
+    outline: none;
+    background-color: transparent; 
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  margin-top: 9px;
+  padding: 6px 12px;
+  color: rgb(0, 149, 246);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.oneItemMesage{
+    position: fixed;
+    left: 440px;
+    width: 71%;
+    height: 725px;
+}
+
+.messageNav{
+    position: fixed;
+    top: 0;
+    width: 71%;
+    padding: 20px 20px 10px;
+    background-color: #fff;
+    z-index:44;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.messageNavigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.messNavLeft{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.profilImg{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.messageNavRight{
+    display: flex;
+    column-gap: 15px;
+    cursor: pointer;
+}
+

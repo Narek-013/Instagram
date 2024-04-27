@@ -1,0 +1,34 @@
+.allMessages {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  height: 610px;
+  overflow: auto;
+  padding: 0 30px;
+}
+
+.activeUserMessage {
+  display: flex;
+  justify-content: flex-end;
+}
+.activeUserMessage p {
+  color: black;
+  background-color: lightgrey;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 15px;
+  margin-top: 7px;
+}
+
+.otherUserMessage {
+  display: flex;
+  justify-content: flex-start;
+}
+.otherUserMessage p {
+  color: white;
+  background-color: black;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 15px;
+  margin-top: 7px;
+}

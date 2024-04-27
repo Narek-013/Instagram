@@ -1,0 +1,71 @@
+.AccountPrivacy{
+    margin-top: 34px;
+    /* margin-bottom: 50px; */
+}
+
+.privateP{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.privateBlocks{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.privateBlocks p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.privateRadio{
+     background-color: rgb(115, 115, 115,.2);
+    display: flex;
+    align-items: center;
+    width: 45px;
+    padding: 2.4px 0;
+    border-radius: 22px;
+}
+
+.privateBlocks input{
+appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  outline: none;
+  box-shadow: 0 0 5px #999;
+  transition:  0.3s;
+  cursor: pointer;
+  &:focus{
+    cursor: pointer;
+        accent-color: white;
+        background-color: #fff;
+        transform: translateX(21px);
+    } 
+}
+
+.privateInfo{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.privateAccounPublic{
+    font-size:12px;
+    font-weight: 400;
+    color: rgb(115, 115, 115,.6);
+}
+
+.LearnMorePrivate{
+    color: rgb(0, 55, 107);
+    line-height: 16px;
+    transition: all,.3s;
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

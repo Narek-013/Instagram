@@ -1,0 +1,12 @@
+.rells{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-left: 292px;
+}
+
+.rell{
+    width:231px;
+    height: 400px;
+}

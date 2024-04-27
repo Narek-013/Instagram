@@ -1,0 +1,59 @@
+.container{
+    max-width: 1440px;
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerWith{
+    margin-right: 250px;
+}
+
+.loginBlocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 348px;
+    /* height: 450px; */
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+.getApp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 30px;
+}
+
+.getApp > p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.allApp{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 70px;
+}
+
+.allApp  img{
+width: 134px;
+height: 40px;
+cursor: pointer;
+}
+
+.allApp > img:nth-child(2){
+    width: 110px;
+}
+
+
+

@@ -1,0 +1,23 @@
+.userPage{
+    display: flex;
+    margin-left: 242px;
+    padding-top: 30px;
+}
+
+.UserAllBlocks{
+    display: flex;
+    flex-direction: column;
+}
+
+.profilNavigationBlocks{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 75px;
+    padding: 30px 0px;
+}
+
+.container{
+    max-width: 935px;
+    margin: auto;
+}

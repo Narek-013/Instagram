@@ -1,0 +1,62 @@
+.messageLeftBlock{
+    position: fixed;
+    left: 60px;
+    top: 0;
+    width: 379px;
+    background-color: #fff;
+    height: 100dvh;
+    border-left: 1px solid gray;
+    border-right:1px solid gray ;
+}
+
+.messageNickName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.messageLeftTop{
+    display: flex;
+    justify-content: space-between;
+    width: 349px;
+    padding: 36px 24px 12px;
+}
+
+.userMessage{
+    cursor: pointer;
+    font-size:20px ;
+    font-weight: 700;
+  
+}
+
+.messageLeftTop button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.messageBottomBlock{
+    width: 349px;
+    padding: 17px 24px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.messagesPp{
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.reqTag{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.messageBottomBlock .active{
+    color: black;
+}

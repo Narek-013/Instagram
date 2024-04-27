@@ -1,0 +1,33 @@
+.otherUserProfilBottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.otherUserProfilDipendce{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 52px;
+}
+
+.otherUserProfilDipendce > a{
+    font-size: 13px;
+    font-weight: 600;
+    color:rgb(115, 115, 115) ;
+    letter-spacing: 1px;
+    line-height: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+.otherUserBorders{
+    width: 935px;
+    opacity: .1;
+    border: 0.5px solid rgb(142, 142, 142);
+}
+
+

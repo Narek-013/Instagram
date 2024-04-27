@@ -1,0 +1,25 @@
+.layout{
+    display: flex;
+}
+
+.pages{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.searchModalBlock{
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 470px;
+    top: 0;
+}
+.searchBlockNone{
+    display: none;
+}
+
+
+.noneModalCreate{
+    display: none;
+}

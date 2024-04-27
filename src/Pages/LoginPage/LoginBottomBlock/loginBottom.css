@@ -1,0 +1,28 @@
+.loginBottomBlocks{
+    margin-top: 10px;
+    width: 100%;
+    height: 41px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    column-gap: 4px;
+}
+
+.dontHave{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 18px;
+}
+
+.loginBottomBlocks a {
+    color: rgb(0, 149, 246);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    opacity: .7;
+}

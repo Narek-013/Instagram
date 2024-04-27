@@ -1,0 +1,42 @@
+.postSelectDiv{
+    width: 600px;
+    height: 543px;
+    background-color: white;
+    border-radius: 12px;
+}
+.titleDiv .title{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.titleDiv {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+}
+.postBottomBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 40px);
+}
+.postBottomDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postBottomDiv p{
+    font-size: 20px;
+    margin-top: 16px;
+}
+.postBottomDiv .button{
+    background-color: rgb(24, 119, 242);
+    padding: 7px 16px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 24px;
+    cursor: pointer;
+}
